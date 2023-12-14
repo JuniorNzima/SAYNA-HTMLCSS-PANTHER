@@ -1,0 +1,449 @@
+@font-face
+{
+    font-family : "Panthera" ;
+    src : url("polices/PantheraRegular-MVZ9J.ttf") ;
+}
+
+@font-face
+{
+    font-family : "Beyno" ;
+    src : url("polices/BEYNO.otf") format("otf") , url("polices/BEYNO.ttf") format("truetype") ;
+}
+
+@font-face
+{
+    font-family : "Wakanda forever" ;
+    src : url("polices/WakandaForever-Regular.ttf") ;
+}
+
+@font-face
+{
+    font-family : "Cantarell" ;
+    src : url("polices/Cantarell-Regular.ttf") ;
+}
+
+html
+{
+    scroll-behavior : smooth ;
+}
+
+h2
+{
+    font-family : "Beyno" ;
+    font-size : 43px ;
+    font-weight : 400 ;
+    color : #9E91B7 ;
+}
+
+body
+{
+    margin : 0 ;
+    padding : 0 ;
+    background: url("Illustrations_Logo/All_pages/arrière_plan.png") no-repeat ;
+    color : white ;
+    font-family : Cantarell ;
+    font-weight : 400 ;
+    font-size : 16px ;
+}
+
+
+/* ************************************************ HEADER ************************************************ */
+
+
+header
+{
+    /* border : 1px solid orange ; */
+    display : flex ;
+    justify-content : space-between ;
+    align-items : center ;
+    width : 85% ;
+    margin : 1% auto ;
+}
+
+nav
+{
+    /* border : 1px solid red ; */
+    width : 35% ;
+}
+
+nav ul
+{
+    /* border : 1px solid green ; */
+    display : flex ;
+    justify-content : space-between ;
+    flex-wrap : wrap ;
+}
+
+nav ul li
+{
+    list-style-type : none ;
+}
+
+nav ul li a
+{
+    color : white ; 
+    text-decoration : none ;
+    font-family : "Beyno" ;
+}
+
+
+/* ********************************************* HERO HEADER ********************************************** */
+
+#hero_header
+{
+    /* border : 1px solid red ; */
+    height : 90vh ;
+    background-image : url("Illustrations_Logo/Enigme/Pantherenigme1.png") ;
+    background-repeat : no-repeat ;
+    background-size : 70% 150% ;
+    background-position : -80px -200px ;
+}
+
+#intro
+{
+    /* border : 1px solid forestgreen ; */
+    position : absolute ;
+    left : 600px ;
+    height : 90vh ;
+}
+
+#intro h2
+{
+    margin-top : 140px ;
+    margin-left : 100px ;
+    transform : translateY(-40px) ;
+}
+
+.trait img
+{
+    width : 100% ;
+    height : 100% ;
+}
+
+.ellipse img
+{
+    width : 100% ;
+    /* height : 60vh ; */
+}
+
+.ellipse
+{
+    margin-top : -100px ;
+}
+
+.trait
+{
+    margin-top : 90px ;
+}
+
+#intro p
+{
+    margin-top : -300px ;
+    margin-left : 120px ;
+    width : 65% ;
+    text-align : justify ;
+    font-size : 13.5px ;
+}
+
+
+/* ************************************************* MAIN ******************************************** ***/
+
+main
+{
+    margin-left : 150px ;
+    margin-bottom : -150px ;
+    overflow : hidden ;
+}
+
+blockquote
+{
+    margin-left : 0 ;
+    font-family : "Wakanda forever" ;
+    letter-spacing : 0.3em ;
+    word-spacing : 0.3em ;
+    line-height : 1.5 ;
+    font-size : 25px ;
+}
+
+.alphabet
+{
+    font-family : "Wakanda forever" ;
+}
+
+#div_ellipse
+{
+    /* border : 1px solid red ; */
+    position : relative ;
+    left : 400px ;
+    bottom : 150px ;
+}
+
+#div_ellipse p
+{
+    width : 50% ;
+    transform : translate(80px , -340px) ;
+    text-align : center ;
+}
+
+form 
+{
+    position : relative ;
+    bottom : 380px ;
+}
+
+#reponse
+{
+    width : 450px ;
+    height : 56px ;
+    border-radius : 38px ;
+    outline : none ;
+    padding-left : 40px ;
+    background-color : transparent ;
+    caret-color : white ;
+    color : white ;
+    border-width : 1px ;
+}
+
+#reponse::placeholder
+{
+    color : white ;
+}
+
+#bouton_envoyer
+{
+    /* width : 174px ;
+    height : 54px ; */
+    border-radius : 38px ;
+    border : none ;
+    color : black ;
+    background-color : white ;
+    padding : 25px 80px ;
+    cursor : pointer ;
+    position : relative ;
+    left : 11% ;
+}
+
+
+
+/* ************************************************ FOOTER ********************************************** */
+
+
+footer
+{
+    background-image : url("Illustrations_Logo/All_pages/back_footer.png") ;
+    background-repeat : no-repeat ;
+    display : flex ;
+    justify-content : space-evenly ; 
+    align-items : center ;
+    height : 600px ;
+}
+
+footer #div_texte
+{
+    /* border : 1px solid red ; */
+    /* margin-top : -13% ; */
+    display : flex ;
+    flex-direction : column ;
+    /* align-items : center ; */
+}
+
+footer #logo_texte
+{
+    /* border : 1px solid palegoldenrod ; */
+    display : flex ;
+    justify-content : space-between ;
+}
+
+footer #logo_footer
+{
+    position : absolute ;
+    /* bottom : 5% ; */
+    left : 18% ;
+    margin-top : 11% ;
+}
+
+#logo_texte
+{
+    display : flex ;
+    flex-direction : column ;
+    justify-content : space-between ;
+    align-items : center ;
+    height : 120px ;
+    width : 600px ;
+    /* border : 1px solid saddlebrown ; */
+}
+
+#div_title
+{
+    display : flex ;
+    justify-content : space-between ;
+    text-transform : uppercase ;
+    width : 100% ;
+    font-size : 22px ;
+    /* border : 1px solid green ; */
+}
+
+#div_title h3
+{
+    letter-spacing : 1.2px ;
+} 
+
+#reseaux_sociaux_2
+{
+    display : flex ;
+    justify-content : space-between ;
+    align-items : center ;
+    width : 100% ;
+}
+
+.liens
+{
+    display : flex ;
+    flex-direction : column ;
+}
+
+.image_reseaux_sociaux_2
+{
+    display : flex ;
+    justify-content : space-between ;
+    width : 45% ;
+}
+
+#copyright
+{
+    margin-top : 20% ;
+    font-size : 10px ;
+}
+
+footer a
+{
+    text-decoration : none ;
+}
+
+.liens a
+{
+    color : white ;
+}
+
+
+/* ********************************************* ANIMATIONS ******************************************** */
+
+.enigme
+{
+    text-decoration : underline ;
+    color : #9E91B7 ;
+}
+
+.wakanda:hover , .accueil:hover
+{
+    text-decoration : underline ;
+}
+
+#bouton_envoyer
+{
+    -webkit-transition : box-shadow 1s ;
+    -moz-transition : box-shadow 1s ;
+    -o-transition : box-shadow 1s ;
+    transition : box-shadow 1s ;
+}
+
+#bouton_envoyer:hover
+{
+    box-shadow : 0 0 20px #F2CEF2 ;
+}
+
+#logo_header:hover
+{
+    filter : brightness(0) saturate(100%) invert(64%) sepia(4%) saturate(2115%) hue-rotate(219deg) brightness(92%) contrast(94%) ;
+}
+
+#cercles:hover + a , #cercles:hover
+{
+    -webkit-transition : transform 1s ease-in-out ;
+    -moz-transition : transform 1s ease-in-out ;
+    -o-transition : transform 1s ease-in-out ;
+    transition : transform 1s ease-in-out ;
+}
+
+#cercles:hover + a , #cercles:hover 
+{
+    transform : scale(1.1) ;
+} 
+
+.image_reseaux_sociaux_2 a:hover
+{
+    transform : scale(1.1) ;
+}
+
+*
+{
+    animation : fadein 2s ;
+}
+
+@keyframes fadein
+{
+    0%{
+        opacity : 0 ;
+        transform : translateX(-20px) ;
+    }
+
+    100%{
+        opacity : 1 ;
+    }
+}
+
+.liens a:hover
+{
+    text-decoration : underline ;
+}
+
+#popup
+{
+    Background : radial-gradient(126.67% 350.28% at -21.35% 0%,#11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%,rgba(2, 23, 64, 0) 100%) ;
+    width : 40% ;
+    height : 200px ;
+    display : flex ;
+    justify-content : center ;
+    align-items: center ;
+    position : relative ;
+    top : -500px ;
+    visibility : hidden ;
+}
+
+.content p
+{
+    text-align : center ;
+}
+
+a{
+    text-decoration : none ;
+}
+
+.btn
+{
+    color : white ;
+    font-size : 2em ;
+    
+}
+
+.div_btn:hover
+{
+    background-color : red ;
+}
+
+.div_btn
+{
+    position : relative ;
+    bottom  : 17vh ;
+    left : 119% ;
+    height : 1.8em ;
+    width : 2em ;
+    display : flex ;
+    justify-content : center ;
+    align-items: center ;
+}
+
+#popup:target
+{
+    visibility : visible ;
+}
